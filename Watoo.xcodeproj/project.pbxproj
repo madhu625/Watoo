@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438982871FAC3DFD98A23987 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 309F621496B4E34E313D1A4F /* libPods.a */; };
+		AD870F751BD2DB5C00F7034A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD870F741BD2DB5C00F7034A /* AppDelegate.swift */; };
+		AD870F771BD2DB5C00F7034A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD870F761BD2DB5C00F7034A /* ViewController.swift */; };
+		AD870F7A1BD2DB5C00F7034A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD870F781BD2DB5C00F7034A /* Main.storyboard */; };
+		AD870F7C1BD2DB5C00F7034A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD870F7B1BD2DB5C00F7034A /* Assets.xcassets */; };
+		AD870F7F1BD2DB5C00F7034A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD870F7D1BD2DB5C00F7034A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06DC56442176B631A622E8A7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		309F621496B4E34E313D1A4F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AC4F651BCD4E6929005517 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AD870F711BD2DB5C00F7034A /* Watoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD870F741BD2DB5C00F7034A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD870F761BD2DB5C00F7034A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD870F791BD2DB5C00F7034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD870F7B1BD2DB5C00F7034A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD870F7E1BD2DB5C00F7034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD870F801BD2DB5C00F7034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD870F861BD2DB9800F7034A /* Watoo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watoo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD870F6E1BD2DB5C00F7034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438982871FAC3DFD98A23987 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB2DAF9C8DB89D278DDC557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80AC4F651BCD4E6929005517 /* Pods.debug.xcconfig */,
+				06DC56442176B631A622E8A7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7600B68512D8A4223F1AB0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				309F621496B4E34E313D1A4F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD870F681BD2DB5B00F7034A = {
+			isa = PBXGroup;
+			children = (
+				AD870F731BD2DB5C00F7034A /* Watoo */,
+				AD870F721BD2DB5C00F7034A /* Products */,
+				6BB2DAF9C8DB89D278DDC557 /* Pods */,
+				7600B68512D8A4223F1AB0DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD870F721BD2DB5C00F7034A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD870F711BD2DB5C00F7034A /* Watoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD870F731BD2DB5C00F7034A /* Watoo */ = {
+			isa = PBXGroup;
+			children = (
+				AD870F8A1BD2DCB500F7034A /* API */,
+				AD870F891BD2DC7000F7034A /* ViewControllers */,
+				AD870F741BD2DB5C00F7034A /* AppDelegate.swift */,
+				AD870F781BD2DB5C00F7034A /* Main.storyboard */,
+				AD870F7B1BD2DB5C00F7034A /* Assets.xcassets */,
+				AD870F7D1BD2DB5C00F7034A /* LaunchScreen.storyboard */,
+				AD870F801BD2DB5C00F7034A /* Info.plist */,
+				AD870F861BD2DB9800F7034A /* Watoo-Bridging-Header.h */,
+			);
+			path = Watoo;
+			sourceTree = "<group>";
+		};
+		AD870F891BD2DC7000F7034A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD870F761BD2DB5C00F7034A /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD870F8A1BD2DCB500F7034A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD870F701BD2DB5C00F7034A /* Watoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD870F831BD2DB5C00F7034A /* Build configuration list for PBXNativeTarget "Watoo" */;
+			buildPhases = (
+				912BE1F5A534A17D329EFB39 /* Check Pods Manifest.lock */,
+				AD870F6D1BD2DB5C00F7034A /* Sources */,
+				AD870F6E1BD2DB5C00F7034A /* Frameworks */,
+				AD870F6F1BD2DB5C00F7034A /* Resources */,
+				9793E7FA4A517EAB73BB215D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watoo;
+			productName = Watoo;
+			productReference = AD870F711BD2DB5C00F7034A /* Watoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD870F691BD2DB5B00F7034A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DeeptiChinta;
+				TargetAttributes = {
+					AD870F701BD2DB5C00F7034A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F8QXJ8B265;
+					};
+				};
+			};
+			buildConfigurationList = AD870F6C1BD2DB5B00F7034A /* Build configuration list for PBXProject "Watoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD870F681BD2DB5B00F7034A;
+			productRefGroup = AD870F721BD2DB5C00F7034A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD870F701BD2DB5C00F7034A /* Watoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD870F6F1BD2DB5C00F7034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD870F7F1BD2DB5C00F7034A /* LaunchScreen.storyboard in Resources */,
+				AD870F7C1BD2DB5C00F7034A /* Assets.xcassets in Resources */,
+				AD870F7A1BD2DB5C00F7034A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		912BE1F5A534A17D329EFB39 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9793E7FA4A517EAB73BB215D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD870F6D1BD2DB5C00F7034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD870F771BD2DB5C00F7034A /* ViewController.swift in Sources */,
+				AD870F751BD2DB5C00F7034A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD870F781BD2DB5C00F7034A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD870F791BD2DB5C00F7034A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD870F7D1BD2DB5C00F7034A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD870F7E1BD2DB5C00F7034A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD870F811BD2DB5C00F7034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD870F821BD2DB5C00F7034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD870F841BD2DB5C00F7034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AC4F651BCD4E6929005517 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Watoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deeptichinta.Watoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Watoo/Watoo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD870F851BD2DB5C00F7034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DC56442176B631A622E8A7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Watoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deeptichinta.Watoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Watoo/Watoo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD870F6C1BD2DB5B00F7034A /* Build configuration list for PBXProject "Watoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD870F811BD2DB5C00F7034A /* Debug */,
+				AD870F821BD2DB5C00F7034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD870F831BD2DB5C00F7034A /* Build configuration list for PBXNativeTarget "Watoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD870F841BD2DB5C00F7034A /* Debug */,
+				AD870F851BD2DB5C00F7034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD870F691BD2DB5B00F7034A /* Project object */;
+}
